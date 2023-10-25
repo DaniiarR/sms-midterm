@@ -1,0 +1,10 @@
+# fleet_management.action
+
+# Goal definition
+int32 fleet_size
+---
+# Result definition
+string[] vehicle_routes
+---
+# Feedback definition
+float32 completion_percentage

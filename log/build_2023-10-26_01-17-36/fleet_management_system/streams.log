@@ -1,0 +1,201 @@
+[0.009s] Invoking command in '/home/daniiarr/ros2_ws/build/fleet_management_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/ros2_ws/build/fleet_management_system -- -j4 -l4
+[0.024s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.038s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.132s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.164s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.165s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.167s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.257s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.282s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.382s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.474s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.506s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.507s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.526s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[0.526s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.526s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.526s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[0.539s] -- Found PythonExtra: .so  
+[0.571s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.572s] -- Added test 'lint_cmake' to check CMake code style
+[0.572s] -- Added test 'xmllint' to check XML markup files
+[0.579s] -- Configuring done
+[0.618s] -- Generating done
+[0.620s] -- Build files have been written to: /home/daniiarr/ros2_ws/build/fleet_management_system
+[0.633s] [35m[1mScanning dependencies of target fleet_management_system__cpp[0m
+[0.633s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.642s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.882s] [  6%] Built target fleet_management_system__cpp
+[0.887s] [35m[1mScanning dependencies of target fleet_management_system__rosidl_generator_c[0m
+[0.887s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.889s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.892s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.906s] [ 19%] [32mBuilding C object CMakeFiles/fleet_management_system__rosidl_generator_c.dir/rosidl_generator_c/fleet_management_system/action/detail/fleet_management__functions.c.o[0m
+[1.030s] [ 22%] [32m[1mLinking C shared library libfleet_management_system__rosidl_generator_c.so[0m
+[1.062s] [ 22%] Built target fleet_management_system__rosidl_generator_c
+[1.068s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.069s] [35m[1mScanning dependencies of target fleet_management_system__rosidl_typesupport_cpp[0m
+[1.101s] [ 29%] [32mBuilding CXX object CMakeFiles/fleet_management_system__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fleet_management_system/action/fleet_management__type_support.cpp.o[0m
+[1.106s] [35m[1mScanning dependencies of target fleet_management_system__rosidl_typesupport_introspection_cpp[0m
+[1.125s] [ 32%] [32mBuilding CXX object CMakeFiles/fleet_management_system__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fleet_management_system/action/detail/fleet_management__type_support.cpp.o[0m
+[1.129s] [35m[1mScanning dependencies of target fleet_management_system__rosidl_typesupport_fastrtps_cpp[0m
+[1.158s] [ 35%] [32mBuilding CXX object CMakeFiles/fleet_management_system__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fleet_management_system/action/detail/dds_fastrtps/fleet_management__type_support.cpp.o[0m
+[1.271s] [35m[1mScanning dependencies of target fleet_management_system__rosidl_typesupport_c[0m
+[1.291s] [ 38%] [32mBuilding CXX object CMakeFiles/fleet_management_system__rosidl_typesupport_c.dir/rosidl_typesupport_c/fleet_management_system/action/fleet_management__type_support.cpp.o[0m
+[1.335s] [ 41%] [32m[1mLinking CXX shared library libfleet_management_system__rosidl_typesupport_c.so[0m
+[1.378s] [ 41%] Built target fleet_management_system__rosidl_typesupport_c
+[1.387s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.395s] [ 48%] [32m[1mLinking CXX shared library libfleet_management_system__rosidl_typesupport_cpp.so[0m
+[1.425s] [ 48%] Built target fleet_management_system__rosidl_typesupport_cpp
+[1.437s] [ 51%] [32m[1mLinking CXX shared library libfleet_management_system__rosidl_typesupport_introspection_cpp.so[0m
+[1.479s] [ 51%] Built target fleet_management_system__rosidl_typesupport_introspection_cpp
+[1.544s] [ 54%] [32m[1mLinking CXX shared library libfleet_management_system__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.590s] [ 54%] Built target fleet_management_system__rosidl_typesupport_fastrtps_cpp
+[1.596s] [ 58%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.606s] [35m[1mScanning dependencies of target fleet_management_system__rosidl_typesupport_introspection_c[0m
+[1.615s] [ 61%] [32mBuilding C object CMakeFiles/fleet_management_system__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fleet_management_system/action/detail/fleet_management__type_support.c.o[0m
+[1.642s] [ 64%] [32m[1mLinking C shared library libfleet_management_system__rosidl_typesupport_introspection_c.so[0m
+[1.660s] [ 64%] Built target fleet_management_system__rosidl_typesupport_introspection_c
+[1.803s] [35m[1mScanning dependencies of target fleet_management_system__rosidl_typesupport_fastrtps_c[0m
+[1.815s] [ 67%] [32mBuilding CXX object CMakeFiles/fleet_management_system__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fleet_management_system/action/detail/fleet_management__type_support_c.cpp.o[0m
+[2.002s] [ 70%] [32m[1mLinking CXX shared library libfleet_management_system__rosidl_typesupport_fastrtps_c.so[0m
+[2.043s] [ 70%] Built target fleet_management_system__rosidl_typesupport_fastrtps_c
+[2.049s] [35m[1mScanning dependencies of target fleet_management_system[0m
+[2.054s] [ 70%] Built target fleet_management_system
+[2.058s] [35m[1mScanning dependencies of target fleet_management_system__py[0m
+[2.064s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.524s] [ 74%] Built target fleet_management_system__py
+[2.530s] [35m[1mScanning dependencies of target fleet_management_system__python[0m
+[2.557s] [ 77%] [32mBuilding C object CMakeFiles/fleet_management_system__python.dir/rosidl_generator_py/fleet_management_system/action/_fleet_management_s.c.o[0m
+[2.643s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/fleet_management_system/libfleet_management_system__python.so[0m
+[2.666s] [ 80%] Built target fleet_management_system__python
+[2.672s] [35m[1mScanning dependencies of target fleet_management_system__rosidl_typesupport_c__pyext[0m
+[2.672s] [35m[1mScanning dependencies of target fleet_management_system__rosidl_typesupport_introspection_c__pyext[0m
+[2.672s] [35m[1mScanning dependencies of target fleet_management_system__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.683s] [ 83%] [32mBuilding C object CMakeFiles/fleet_management_system__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fleet_management_system/_fleet_management_system_s.ep.rosidl_typesupport_c.c.o[0m
+[2.686s] [ 90%] [32mBuilding C object CMakeFiles/fleet_management_system__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fleet_management_system/_fleet_management_system_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.686s] [ 90%] [32mBuilding C object CMakeFiles/fleet_management_system__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fleet_management_system/_fleet_management_system_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.745s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/fleet_management_system/fleet_management_system_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[2.745s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/fleet_management_system/fleet_management_system_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[2.746s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/fleet_management_system/fleet_management_system_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[2.770s] [100%] Built target fleet_management_system__rosidl_typesupport_introspection_c__pyext
+[2.772s] [100%] Built target fleet_management_system__rosidl_typesupport_c__pyext
+[2.791s] [100%] Built target fleet_management_system__rosidl_typesupport_fastrtps_c__pyext
+[2.798s] Invoked command in '/home/daniiarr/ros2_ws/build/fleet_management_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/ros2_ws/build/fleet_management_system -- -j4 -l4
+[2.831s] Invoking command in '/home/daniiarr/ros2_ws/build/fleet_management_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/daniiarr/ros2_ws/build/fleet_management_system
+[2.837s] -- Install configuration: ""
+[2.838s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/ament_index/resource_index/rosidl_interfaces/fleet_management_system
+[2.838s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system
+[2.838s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action
+[2.838s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/fleet_management.h
+[2.838s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail
+[2.838s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__type_support.h
+[2.838s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__struct.h
+[2.838s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__functions.c
+[2.838s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__functions.h
+[2.838s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg
+[2.838s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg/rosidl_generator_c__visibility_control.h
+[2.838s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/environment/library_path.sh
+[2.838s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/environment/library_path.dsv
+[2.838s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_generator_c.so
+[2.839s] -- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_generator_c.so" to ""
+[2.839s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system
+[2.839s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action
+[2.839s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail
+[2.839s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__rosidl_typesupport_fastrtps_c.h
+[2.839s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg
+[2.839s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.839s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_fastrtps_c.so
+[2.839s] -- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_fastrtps_c.so" to ""
+[2.839s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system
+[2.839s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action
+[2.839s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail
+[2.839s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/dds_fastrtps
+[2.839s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__rosidl_typesupport_fastrtps_cpp.hpp
+[2.839s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg
+[2.840s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.840s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_fastrtps_cpp.so
+[2.840s] -- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.840s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system
+[2.840s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action
+[2.840s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail
+[2.840s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__rosidl_typesupport_introspection_c.h
+[2.840s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__type_support.c
+[2.840s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg
+[2.840s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.840s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_introspection_c.so
+[2.840s] -- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_introspection_c.so" to ""
+[2.840s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_c.so
+[2.841s] -- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_c.so" to ""
+[2.841s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system
+[2.841s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action
+[2.841s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail
+[2.841s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__builder.hpp
+[2.841s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__type_support.hpp
+[2.841s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__traits.hpp
+[2.841s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__struct.hpp
+[2.841s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/fleet_management.hpp
+[2.841s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg
+[2.841s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.841s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system
+[2.841s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action
+[2.841s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail
+[2.842s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__type_support.cpp
+[2.842s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__rosidl_typesupport_introspection_cpp.hpp
+[2.842s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_introspection_cpp.so
+[2.842s] -- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_introspection_cpp.so" to ""
+[2.842s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_cpp.so
+[2.842s] -- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_cpp.so" to ""
+[2.842s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/environment/pythonpath.sh
+[2.842s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/environment/pythonpath.dsv
+[2.842s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/__init__.py
+[2.859s] Compiling '/home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/__init__.py'...
+[2.862s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/action
+[2.862s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/action/_fleet_management.py
+[2.862s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/action/__init__.py
+[2.862s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/action/_fleet_management_s.c
+[2.862s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/fleet_management_system_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[2.862s] -- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/fleet_management_system_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[2.863s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/fleet_management_system_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[2.863s] -- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/fleet_management_system_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[2.863s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/fleet_management_system_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[2.863s] -- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/fleet_management_system_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[2.864s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__python.so
+[2.864s] -- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__python.so" to ""
+[2.864s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/action/FleetManagement.idl
+[2.864s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/action/FleetManagement.action
+[2.864s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/ament_index/resource_index/package_run_dependencies/fleet_management_system
+[2.864s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/ament_index/resource_index/parent_prefix_path/fleet_management_system
+[2.864s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/environment/ament_prefix_path.sh
+[2.864s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/environment/ament_prefix_path.dsv
+[2.865s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/environment/path.sh
+[2.865s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/environment/path.dsv
+[2.865s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/local_setup.bash
+[2.865s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/local_setup.sh
+[2.865s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/local_setup.zsh
+[2.865s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/local_setup.dsv
+[2.865s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/package.dsv
+[2.865s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/share/ament_index/resource_index/packages/fleet_management_system
+[2.865s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_generator_cExport.cmake
+[2.865s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_generator_cExport-noconfig.cmake
+[2.865s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_typesupport_introspection_cExport.cmake
+[2.865s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.866s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_typesupport_cExport.cmake
+[2.866s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_typesupport_cExport-noconfig.cmake
+[2.866s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_generator_cppExport.cmake
+[2.866s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_typesupport_introspection_cppExport.cmake
+[2.866s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.866s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_typesupport_cppExport.cmake
+[2.866s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_typesupport_cppExport-noconfig.cmake
+[2.866s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/rosidl_cmake-extras.cmake
+[2.866s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.867s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/ament_cmake_export_libraries-extras.cmake
+[2.867s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/ament_cmake_export_targets-extras.cmake
+[2.867s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.867s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.867s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.867s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_systemConfig.cmake
+[2.867s] -- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_systemConfig-version.cmake
+[2.867s] -- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/package.xml
+[2.869s] Invoked command in '/home/daniiarr/ros2_ws/build/fleet_management_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/daniiarr/ros2_ws/build/fleet_management_system

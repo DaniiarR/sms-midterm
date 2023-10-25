@@ -1,0 +1,10 @@
+CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+  rosidl_generate_interfaces() the passed file
+  'action/FleetManagement.action' doesn't exist relative to the
+  CMAKE_CURRENT_SOURCE_DIR
+  '/home/daniiarr/ros2_ws/src/fleet_management_system'
+Call Stack (most recent call first):
+  CMakeLists.txt:37 (rosidl_generate_interfaces)
+
+
+make: *** [Makefile:222: cmake_check_build_system] Error 1

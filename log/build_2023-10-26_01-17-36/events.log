@@ -1,0 +1,237 @@
+[0.000000] (-) TimerEvent: {}
+[0.000085] (fleet_management_system) JobQueued: {'identifier': 'fleet_management_system', 'dependencies': OrderedDict()}
+[0.000110] (fleet_management_system) JobStarted: {'identifier': 'fleet_management_system'}
+[0.005768] (fleet_management_system) JobProgress: {'identifier': 'fleet_management_system', 'progress': 'cmake'}
+[0.006366] (fleet_management_system) JobProgress: {'identifier': 'fleet_management_system', 'progress': 'build'}
+[0.006857] (fleet_management_system) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daniiarr/ros2_ws/build/fleet_management_system', '--', '-j4', '-l4'], 'cwd': '/home/daniiarr/ros2_ws/build/fleet_management_system', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/daniiarr'), ('USER', 'daniiarr'), ('SSH_AGENT_PID', '1210'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/daniiarr'), ('OLDPWD', '/home/daniiarr'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1083'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/daniiarr/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'daniiarr'), ('JOURNAL_STREAM', '9:31472'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin'), ('SESSION_MANAGER', 'local/daniiarr:@/tmp/.ICE-unix/1306,unix/daniiarr:/tmp/.ICE-unix/1306'), ('INVOCATION_ID', 'c4ad249ad4e1499ca11457ede2333a0b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e3b7d6c_d7a7_4ffd_bc31_d3ac00788b29'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/home/daniiarr/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/daniiarr/ros2_ws/install/fleet_management_system:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/daniiarr/ros2_ws/build/fleet_management_system'), ('XDG_DATA_DIRS', '/usr/share/gnome:/home/daniiarr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/daniiarr/ros2_ws/install/fleet_management_system:/opt/ros/foxy')]), 'shell': False}
+[0.024328] (fleet_management_system) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.037678] (fleet_management_system) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099684] (-) TimerEvent: {}
+[0.132203] (fleet_management_system) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.164064] (fleet_management_system) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.165214] (fleet_management_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.167394] (fleet_management_system) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.200347] (-) TimerEvent: {}
+[0.256737] (fleet_management_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.281974] (fleet_management_system) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.301312] (-) TimerEvent: {}
+[0.382458] (fleet_management_system) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.401402] (-) TimerEvent: {}
+[0.474475] (fleet_management_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.491352] (fleet_management_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.501479] (-) TimerEvent: {}
+[0.505596] (fleet_management_system) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.507458] (fleet_management_system) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.526267] (fleet_management_system) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.526380] (fleet_management_system) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.526412] (fleet_management_system) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.526442] (fleet_management_system) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[0.539306] (fleet_management_system) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.570940] (fleet_management_system) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.571904] (fleet_management_system) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.572371] (fleet_management_system) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.579248] (fleet_management_system) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.602448] (-) TimerEvent: {}
+[0.617709] (fleet_management_system) StdoutLine: {'line': b'-- Generating done\n'}
+[0.619788] (fleet_management_system) StdoutLine: {'line': b'-- Build files have been written to: /home/daniiarr/ros2_ws/build/fleet_management_system\n'}
+[0.632700] (fleet_management_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fleet_management_system__cpp\x1b[0m\n'}
+[0.632834] (fleet_management_system) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.642085] (fleet_management_system) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.703927] (-) TimerEvent: {}
+[0.804691] (-) TimerEvent: {}
+[0.881652] (fleet_management_system) StdoutLine: {'line': b'[  6%] Built target fleet_management_system__cpp\n'}
+[0.886678] (fleet_management_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fleet_management_system__rosidl_generator_c\x1b[0m\n'}
+[0.887177] (fleet_management_system) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.888826] (fleet_management_system) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.891744] (fleet_management_system) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[0.904800] (-) TimerEvent: {}
+[0.906400] (fleet_management_system) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/fleet_management_system__rosidl_generator_c.dir/rosidl_generator_c/fleet_management_system/action/detail/fleet_management__functions.c.o\x1b[0m\n'}
+[1.004898] (-) TimerEvent: {}
+[1.029809] (fleet_management_system) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libfleet_management_system__rosidl_generator_c.so\x1b[0m\n'}
+[1.062202] (fleet_management_system) StdoutLine: {'line': b'[ 22%] Built target fleet_management_system__rosidl_generator_c\n'}
+[1.068466] (fleet_management_system) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.068705] (fleet_management_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fleet_management_system__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.100552] (fleet_management_system) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/fleet_management_system__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fleet_management_system/action/fleet_management__type_support.cpp.o\x1b[0m\n'}
+[1.105044] (-) TimerEvent: {}
+[1.105874] (fleet_management_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fleet_management_system__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.124736] (fleet_management_system) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/fleet_management_system__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fleet_management_system/action/detail/fleet_management__type_support.cpp.o\x1b[0m\n'}
+[1.129469] (fleet_management_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fleet_management_system__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.157745] (fleet_management_system) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/fleet_management_system__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fleet_management_system/action/detail/dds_fastrtps/fleet_management__type_support.cpp.o\x1b[0m\n'}
+[1.205182] (-) TimerEvent: {}
+[1.270606] (fleet_management_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fleet_management_system__rosidl_typesupport_c\x1b[0m\n'}
+[1.290748] (fleet_management_system) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/fleet_management_system__rosidl_typesupport_c.dir/rosidl_typesupport_c/fleet_management_system/action/fleet_management__type_support.cpp.o\x1b[0m\n'}
+[1.305291] (-) TimerEvent: {}
+[1.335165] (fleet_management_system) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libfleet_management_system__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.377941] (fleet_management_system) StdoutLine: {'line': b'[ 41%] Built target fleet_management_system__rosidl_typesupport_c\n'}
+[1.386883] (fleet_management_system) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.394698] (fleet_management_system) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libfleet_management_system__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.405393] (-) TimerEvent: {}
+[1.425427] (fleet_management_system) StdoutLine: {'line': b'[ 48%] Built target fleet_management_system__rosidl_typesupport_cpp\n'}
+[1.437025] (fleet_management_system) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libfleet_management_system__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.478995] (fleet_management_system) StdoutLine: {'line': b'[ 51%] Built target fleet_management_system__rosidl_typesupport_introspection_cpp\n'}
+[1.505494] (-) TimerEvent: {}
+[1.543688] (fleet_management_system) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libfleet_management_system__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.590127] (fleet_management_system) StdoutLine: {'line': b'[ 54%] Built target fleet_management_system__rosidl_typesupport_fastrtps_cpp\n'}
+[1.596102] (fleet_management_system) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.605647] (fleet_management_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fleet_management_system__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.605749] (-) TimerEvent: {}
+[1.615058] (fleet_management_system) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/fleet_management_system__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fleet_management_system/action/detail/fleet_management__type_support.c.o\x1b[0m\n'}
+[1.642248] (fleet_management_system) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libfleet_management_system__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.659555] (fleet_management_system) StdoutLine: {'line': b'[ 64%] Built target fleet_management_system__rosidl_typesupport_introspection_c\n'}
+[1.707648] (-) TimerEvent: {}
+[1.803200] (fleet_management_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fleet_management_system__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.808433] (-) TimerEvent: {}
+[1.815358] (fleet_management_system) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/fleet_management_system__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fleet_management_system/action/detail/fleet_management__type_support_c.cpp.o\x1b[0m\n'}
+[1.912695] (-) TimerEvent: {}
+[2.001640] (fleet_management_system) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libfleet_management_system__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.012898] (-) TimerEvent: {}
+[2.043094] (fleet_management_system) StdoutLine: {'line': b'[ 70%] Built target fleet_management_system__rosidl_typesupport_fastrtps_c\n'}
+[2.048722] (fleet_management_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fleet_management_system\x1b[0m\n'}
+[2.053653] (fleet_management_system) StdoutLine: {'line': b'[ 70%] Built target fleet_management_system\n'}
+[2.058510] (fleet_management_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fleet_management_system__py\x1b[0m\n'}
+[2.064212] (fleet_management_system) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.114301] (-) TimerEvent: {}
+[2.218465] (-) TimerEvent: {}
+[2.319430] (-) TimerEvent: {}
+[2.420840] (-) TimerEvent: {}
+[2.521071] (-) TimerEvent: {}
+[2.524404] (fleet_management_system) StdoutLine: {'line': b'[ 74%] Built target fleet_management_system__py\n'}
+[2.530357] (fleet_management_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fleet_management_system__python\x1b[0m\n'}
+[2.557001] (fleet_management_system) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/fleet_management_system__python.dir/rosidl_generator_py/fleet_management_system/action/_fleet_management_s.c.o\x1b[0m\n'}
+[2.621223] (-) TimerEvent: {}
+[2.643330] (fleet_management_system) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fleet_management_system/libfleet_management_system__python.so\x1b[0m\n'}
+[2.666102] (fleet_management_system) StdoutLine: {'line': b'[ 80%] Built target fleet_management_system__python\n'}
+[2.671667] (fleet_management_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fleet_management_system__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.671782] (fleet_management_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fleet_management_system__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.671816] (fleet_management_system) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fleet_management_system__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.682601] (fleet_management_system) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/fleet_management_system__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fleet_management_system/_fleet_management_system_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.685740] (fleet_management_system) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/fleet_management_system__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fleet_management_system/_fleet_management_system_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.685865] (fleet_management_system) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/fleet_management_system__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fleet_management_system/_fleet_management_system_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.721472] (-) TimerEvent: {}
+[2.745214] (fleet_management_system) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fleet_management_system/fleet_management_system_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[2.745351] (fleet_management_system) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fleet_management_system/fleet_management_system_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[2.746287] (fleet_management_system) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/fleet_management_system/fleet_management_system_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[2.769533] (fleet_management_system) StdoutLine: {'line': b'[100%] Built target fleet_management_system__rosidl_typesupport_introspection_c__pyext\n'}
+[2.772258] (fleet_management_system) StdoutLine: {'line': b'[100%] Built target fleet_management_system__rosidl_typesupport_c__pyext\n'}
+[2.790754] (fleet_management_system) StdoutLine: {'line': b'[100%] Built target fleet_management_system__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.798162] (fleet_management_system) CommandEnded: {'returncode': 0}
+[2.821585] (-) TimerEvent: {}
+[2.826165] (fleet_management_system) JobProgress: {'identifier': 'fleet_management_system', 'progress': 'install'}
+[2.831051] (fleet_management_system) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/daniiarr/ros2_ws/build/fleet_management_system'], 'cwd': '/home/daniiarr/ros2_ws/build/fleet_management_system', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/daniiarr'), ('USER', 'daniiarr'), ('SSH_AGENT_PID', '1210'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/daniiarr'), ('OLDPWD', '/home/daniiarr'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1083'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/daniiarr/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'daniiarr'), ('JOURNAL_STREAM', '9:31472'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin'), ('SESSION_MANAGER', 'local/daniiarr:@/tmp/.ICE-unix/1306,unix/daniiarr:/tmp/.ICE-unix/1306'), ('INVOCATION_ID', 'c4ad249ad4e1499ca11457ede2333a0b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e3b7d6c_d7a7_4ffd_bc31_d3ac00788b29'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/home/daniiarr/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/daniiarr/ros2_ws/install/fleet_management_system:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/daniiarr/ros2_ws/build/fleet_management_system'), ('XDG_DATA_DIRS', '/usr/share/gnome:/home/daniiarr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/daniiarr/ros2_ws/install/fleet_management_system:/opt/ros/foxy')]), 'shell': False}
+[2.837440] (fleet_management_system) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.837680] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/ament_index/resource_index/rosidl_interfaces/fleet_management_system\n'}
+[2.837734] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system\n'}
+[2.837880] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action\n'}
+[2.837938] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/fleet_management.h\n'}
+[2.838050] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail\n'}
+[2.838111] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__type_support.h\n'}
+[2.838154] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__struct.h\n'}
+[2.838192] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__functions.c\n'}
+[2.838221] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__functions.h\n'}
+[2.838272] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg\n'}
+[2.838413] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.838446] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/environment/library_path.sh\n'}
+[2.838475] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/environment/library_path.dsv\n'}
+[2.838503] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_generator_c.so\n'}
+[2.838595] (fleet_management_system) StdoutLine: {'line': b'-- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_generator_c.so" to ""\n'}
+[2.838679] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system\n'}
+[2.838708] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action\n'}
+[2.838821] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail\n'}
+[2.838854] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__rosidl_typesupport_fastrtps_c.h\n'}
+[2.838947] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg\n'}
+[2.838978] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.839006] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_fastrtps_c.so\n'}
+[2.839162] (fleet_management_system) StdoutLine: {'line': b'-- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.839270] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system\n'}
+[2.839346] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action\n'}
+[2.839431] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail\n'}
+[2.839464] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/dds_fastrtps\n'}
+[2.839492] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.839553] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg\n'}
+[2.839610] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.839734] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.840034] (fleet_management_system) StdoutLine: {'line': b'-- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.840077] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system\n'}
+[2.840105] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action\n'}
+[2.840134] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail\n'}
+[2.840231] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__rosidl_typesupport_introspection_c.h\n'}
+[2.840261] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__type_support.c\n'}
+[2.840288] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg\n'}
+[2.840315] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.840342] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_introspection_c.so\n'}
+[2.840424] (fleet_management_system) StdoutLine: {'line': b'-- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.840530] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_c.so\n'}
+[2.840805] (fleet_management_system) StdoutLine: {'line': b'-- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_c.so" to ""\n'}
+[2.840912] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system\n'}
+[2.840997] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action\n'}
+[2.841028] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail\n'}
+[2.841123] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__builder.hpp\n'}
+[2.841157] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__type_support.hpp\n'}
+[2.841197] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__traits.hpp\n'}
+[2.841282] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__struct.hpp\n'}
+[2.841312] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/fleet_management.hpp\n'}
+[2.841351] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg\n'}
+[2.841391] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.841506] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system\n'}
+[2.841548] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action\n'}
+[2.841577] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail\n'}
+[2.841613] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__type_support.cpp\n'}
+[2.841641] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/include/fleet_management_system/action/detail/fleet_management__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.841748] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_introspection_cpp.so\n'}
+[2.841857] (fleet_management_system) StdoutLine: {'line': b'-- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.841964] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_cpp.so\n'}
+[2.842167] (fleet_management_system) StdoutLine: {'line': b'-- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__rosidl_typesupport_cpp.so" to ""\n'}
+[2.842210] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/environment/pythonpath.sh\n'}
+[2.842276] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/environment/pythonpath.dsv\n'}
+[2.842395] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/__init__.py\n'}
+[2.859406] (fleet_management_system) StdoutLine: {'line': b"Compiling '/home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/__init__.py'...\n"}
+[2.861579] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/action\n'}
+[2.861735] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/action/_fleet_management.py\n'}
+[2.861777] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/action/__init__.py\n'}
+[2.861805] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/action/_fleet_management_s.c\n'}
+[2.862030] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/fleet_management_system_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.862412] (fleet_management_system) StdoutLine: {'line': b'-- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/fleet_management_system_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[2.862606] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/fleet_management_system_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.863025] (fleet_management_system) StdoutLine: {'line': b'-- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/fleet_management_system_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[2.863187] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/fleet_management_system_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.863550] (fleet_management_system) StdoutLine: {'line': b'-- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/python3.8/site-packages/fleet_management_system/fleet_management_system_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[2.863641] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__python.so\n'}
+[2.863819] (fleet_management_system) StdoutLine: {'line': b'-- Set runtime path of "/home/daniiarr/ros2_ws/install/fleet_management_system/lib/libfleet_management_system__python.so" to ""\n'}
+[2.863939] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/action/FleetManagement.idl\n'}
+[2.864022] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/action/FleetManagement.action\n'}
+[2.864147] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/ament_index/resource_index/package_run_dependencies/fleet_management_system\n'}
+[2.864197] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/ament_index/resource_index/parent_prefix_path/fleet_management_system\n'}
+[2.864303] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/environment/ament_prefix_path.sh\n'}
+[2.864432] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/environment/ament_prefix_path.dsv\n'}
+[2.864545] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/environment/path.sh\n'}
+[2.864758] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/environment/path.dsv\n'}
+[2.864824] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/local_setup.bash\n'}
+[2.864944] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/local_setup.sh\n'}
+[2.865002] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/local_setup.zsh\n'}
+[2.865086] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/local_setup.dsv\n'}
+[2.865127] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/package.dsv\n'}
+[2.865203] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/share/ament_index/resource_index/packages/fleet_management_system\n'}
+[2.865245] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_generator_cExport.cmake\n'}
+[2.865325] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.865436] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.865537] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.865694] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_typesupport_cExport.cmake\n'}
+[2.865806] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.865894] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_generator_cppExport.cmake\n'}
+[2.865974] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.866087] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.866203] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_typesupport_cppExport.cmake\n'}
+[2.866323] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_system__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.866438] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/rosidl_cmake-extras.cmake\n'}
+[2.866567] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.866609] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.866687] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.866726] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.866785] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.866854] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.866934] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_systemConfig.cmake\n'}
+[2.867037] (fleet_management_system) StdoutLine: {'line': b'-- Up-to-date: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/cmake/fleet_management_systemConfig-version.cmake\n'}
+[2.867076] (fleet_management_system) StdoutLine: {'line': b'-- Installing: /home/daniiarr/ros2_ws/install/fleet_management_system/share/fleet_management_system/package.xml\n'}
+[2.869365] (fleet_management_system) CommandEnded: {'returncode': 0}
+[2.914118] (fleet_management_system) JobEnded: {'identifier': 'fleet_management_system', 'rc': 0}
+[2.914651] (-) EventReactorShutdown: {}

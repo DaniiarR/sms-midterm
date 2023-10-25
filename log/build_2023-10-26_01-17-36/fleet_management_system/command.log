@@ -1,0 +1,4 @@
+Invoking command in '/home/daniiarr/ros2_ws/build/fleet_management_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/ros2_ws/build/fleet_management_system -- -j4 -l4
+Invoked command in '/home/daniiarr/ros2_ws/build/fleet_management_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/ros2_ws/build/fleet_management_system -- -j4 -l4
+Invoking command in '/home/daniiarr/ros2_ws/build/fleet_management_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/daniiarr/ros2_ws/build/fleet_management_system
+Invoked command in '/home/daniiarr/ros2_ws/build/fleet_management_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/daniiarr/ros2_ws/build/fleet_management_system
